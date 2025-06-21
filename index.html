@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charming Apartments in Nsawam</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            background-color: #F5EFE3; /* Set background color for the entire website */
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            margin-top: 56px; /* Add margin to prevent navbar overlap */
+       background-color: lightseagreen;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .carousel-item img {
+            width: 90%; /* Reduce width to 50% of the original size */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 auto; /* Center the image */
+        }
+
+        .container {
+            background-color: #F5EFE3 ;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" height="40">
+                REBECCA VILLA
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Charming Two-Bedroom Apartments in Nsawam</h1>
+        <p>Your peaceful retreat at the foot of the Akwapim Hills</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h2>About Us</h2>
+        <p>Welcome to our lovely property nestled in Nsawam, at the foot of the picturesque Akwapim Hills. We offer two spacious apartments, each featuring two comfortable bedrooms, a fully equipped kitchen, and a cozy living area. Enjoy modern amenities and the serene surroundings, making it a perfect getaway for families, business travelers, or friends. You'll also be conveniently close to local attractions and natural beauty.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container py-5">
+        <h2>Gallery</h2>
+        <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="bed.jpg" class="d-block w-100" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="dining.jpg" class="d-block w-100" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="kitchen.jpg" class="d-block w-100" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="living.jpg" class="d-block w-100" alt="Image 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="view.jpg" class="d-block w-100" alt="Image 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="banana.jpg" class="d-block w-100" alt="Image 6">
+                </div> 
+                <div class="carousel-item">
+                    <img src="walkway.jpg" class="d-block w-100" alt="Image 8">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5">
+        <h2>Contact Us</h2>
+        <p>For inquiries, please email us at <a href="mailto:info@charmingapartments.com">info@charmingapartments.com</a>.</p>
+        <p>
+            Call us: 
+            <span title="Ghana" style="font-size:1.2em;">🇬🇭</span>
+            <a href="tel:+233595868629">+233 59 586 8629</a>
+        </p>
+        <p>
+            Call us: 
+            <span title="United Kingdom" style="font-size:1.2em;">🇬🇧</span>
+            <a href="tel:+447506872643">+44 7506 872643</a>
+        </p>
+        <p>WhatsApp: <a href="https://wa.me/+447506872643" target="_blank">Chat on WhatsApp</a></p>
+        <p>Address: E159 Aburi Street, Nsawam, Ghana</p>
+         <p>Interactive Google Maps:</p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.123456789!2d-0.3309272!3d5.8122782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf0b039cf77d4b:0x71118e396cf84b3f!2sRebecca+Villa!5e0!3m2!1sen!2sgh!4v123456789" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; Rebecca Villa. All rights reserved.</p>
+        <div>
+            <a href="#" class="text-white me-2">Facebook</a>
+            <a href="#" class="text-white">Instagram</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
