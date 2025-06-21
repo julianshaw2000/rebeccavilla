@@ -35,6 +35,27 @@
         .container {
             background-color: #F5EFE3 ;
         }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 50px 10px; /* Adjust padding for smaller screens */
+                text-align: center;
+            }
+
+            .carousel-item img {
+                width: 100%; /* Ensure images take full width on mobile */
+                height: auto; /* Maintain aspect ratio */
+            }
+
+            .container {
+                padding: 10px; /* Reduce padding for smaller screens */
+            }
+
+            .navbar-nav {
+                flex-direction: column; /* Stack navigation items vertically */
+                text-align: center;
+            }
+        }
     </style>
 </head>
 <body>
